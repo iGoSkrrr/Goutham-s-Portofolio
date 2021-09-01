@@ -1,0 +1,175 @@
+body{
+    font-family: cursive;
+    animation: backgroundchange 20s infinite ease-in-out;
+
+    
+
+}
+@keyframes backgroundchange {
+    0%{
+        background-image: linear-gradient(to bottom right, #AB87FF, #9B7EDE);
+    }
+    25%{
+        background-image: linear-gradient(to bottom right, rgb(166, 255, 0), rgb(225, 0, 255));
+    }
+    50%{
+        background-image: linear-gradient(to bottom right, #C42847, #2A9D8F);
+    }
+    75%{
+        background-image: linear-gradient(to bottom right, #FBF5F3, #E28413 );
+    }
+    100%{
+        background-image: linear-gradient(to bottom right, #000022, #DE3C4B);
+    }
+}
+nav{
+    background-image: linear-gradient(to top left, purple, turquoise);
+    width: 100%;
+    margin: auto;
+    border-radius: 30px;
+    box-shadow: #001faa 1px 7px;
+    margin-bottom: 10px;
+    
+  
+}
+header{
+    width: 100%;
+    overflow: hidden;
+}
+
+nav a{
+    margin: 50px;
+    text-decoration: none;
+    text-align: center;
+}
+
+h1,h2,h3{
+
+    text-align: center;
+    color: #E4572E;
+    font-family: cursive;
+    padding-top: 5px;
+    border-radius: 20%;
+    background: linear-gradient(to bottom right,rgb(113, 104, 235),rgb(247, 112, 58));
+    margin-top: 2i0px;
+
+
+
+   
+
+}
+
+#icon_image{
+    width: 2% ;
+    float: left;
+    
+    
+
+}
+#wow{
+    width: 15%;
+}
+#China_image{
+    margin-top: 2%;
+    width: 30%;
+    float: right;
+    height: 10%;
+}
+#eiffel_image{
+    width: 30%;
+    float: left;
+}
+#Africa_image{
+    width: 30%;
+    float: right;
+    height: 100%;
+}
+p{
+    width: 30%;
+    margin: 10px;
+    text-align: center;
+    float: left;
+    background-image:url('nbfg.jpeg');
+}
+h1{
+    background-color: Green;
+    border: Darkgreen 4px ridge;
+    width: 50%;
+    float: center;
+    margin: auto;
+    margin-bottom: 5px;
+    
+}
+h2{
+    background-color: Orange;
+    border: blue 4px Dashed;
+    width: 50%;
+    float: center;
+    margin: auto;
+    margin-bottom: 5px;
+}
+h3{
+    background-color: Darkred;
+    border: cyan 4px dotted;
+    width: 50%;
+    float: center ;
+    margin: auto;
+    margin-bottom:10px;
+
+}
+img{
+    width: 50%;
+    height:auto;
+    float: left;
+    margin:10px;
+    border-radius: 20%;
+}
+
+#myPara{
+    color:#001faa;
+    background-color:crimson;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border-radius:50%;
+    margin-bottom: 12%;
+    width: 100%;
+}
+
+pre{
+    margin:auto;
+    width: 100%;
+}
+ul,ol{
+    width: 60%;
+    margin: auto;
+    text-align: center;
+    margin-bottom: 30px;
+    margin-top: 20px;
+
+}
+li{
+    width: max-content;
+    margin: auto;
+}
+dl{
+    width: fit-content;
+    margin: auto;
+    margin-bottom: 30px;
+    margin-top: 20px;
+    margin-left: 46%;
+}
+footer{
+    width: 100%;
+    display: block;
+    height: auto;
+    background: rgba(33, 194, 100, 0.589);
+    border-radius: 20%;
+    padding: 2%;
+    box-sizing: border-box;
+    float: left;
+    overflow: hidden;
+
+}
+summary{
+
+    cursor: pointer;
+}
